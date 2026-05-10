@@ -2,19 +2,19 @@
 
 Đây là đề bài 
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 Mục tiêu: Tìm ra được PIN-code sau đó thực hiện nhập PIN-code đó khi kết nối nc là nhận được flag 
 
 Đầu tiên ta thử xem file đề bài cho là dạng gì  
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 Đó là file thực thi của Linux
 
 Ta cấp quyền cho file rồi chạy để xem file chạy như nào 
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 Ta nhận thấy khi chạy file ta sẽ được yêu cầu nhập 1 mã PIN 8 chữ số 
 
@@ -80,15 +80,15 @@ print(f"[+] FINAL PIN: {pin}")
 
 Sau khi chạy xong ta nhận được PIN-code 
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 Ta thử nhập 
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 -> Như vậy đã bypass thành công 
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 Ta nhận được flag 
 
