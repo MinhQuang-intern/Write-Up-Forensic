@@ -4,7 +4,7 @@ picoCTF: Investigative Reversing 0: Hard
 
 Ở bài này ta nhận được 1 file binary và 1 file image 
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 Ta kiểm tra định dạng file của 2 file này thì ta thấy
 
