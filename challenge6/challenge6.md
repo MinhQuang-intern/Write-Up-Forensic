@@ -83,5 +83,6 @@ Flag có 50 ký tự, mỗi ký tự 8 bit, dùng 8 byte BMP => tổng 50 * 8 = 
 => vùng dữ liệu: 2000 -> 2399
 
 Ta viết script để decode 
+
 ![alt text](images/image.png)
 
