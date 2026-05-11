@@ -83,30 +83,5 @@ Flag có 50 ký tự, mỗi ký tự 8 bit, dùng 8 byte BMP => tổng 50 * 8 = 
 => vùng dữ liệu: 2000 -> 2399
 
 Ta viết script để decode 
------------------------------------
-with open("encoded.bmp", "rb") as f:
-    data = f.read()
-
-offset = 2000
-
-bits = []
-
-# lấy 400 byte chứa dữ liệu hidden
-for i in range(offset, offset + 400):
-    bits.append(data[i] & 1)
-
-flag = ""
-
-# ghép mỗi 8 bit thành 1 byte
-for i in range(0, len(bits), 8):
-
-    byte = 0
-
-    for j in range(8):
-        byte |= (bits[i + j] << j)
-
-    flag += chr(byte + 5)
-
-print(flag)
-----------------------------------
+![alt text](images/image.png)
 
